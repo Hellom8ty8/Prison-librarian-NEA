@@ -32,7 +32,7 @@ def get_bar():
     return "-" * (indent_length * 2 + char_length)
 
 def get_api_key():
-    return f"&key=AIzaSyCMulFDJ4Ty9f458e-6Fd7xtmkm9reqRqU"  #google api key
+    return f"&key=KEY_HERE"  #google api key
 
 def get_url():
     return f"https://www.googleapis.com/books/v1/volumes"
